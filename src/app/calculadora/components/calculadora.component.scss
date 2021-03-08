@@ -4,6 +4,11 @@ h1 {
   justify-content: center;
 }
 
+.form {
+  display: flex;
+  justify-content: center;
+}
+
 .kz-btn {
   width: 90%;
   margin: 4px;
@@ -22,4 +27,10 @@ h1 {
 .col-xs-3,
 .col-xs-9 {
   padding: 0px;
+}
+
+@media (min-width: 992px) {
+  .col-md-4 {
+    width: 100%;
+  }
 }
